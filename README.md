@@ -1,24 +1,5 @@
-# README
+* `rails new shopping-platform --skip-bundle --skip-puma --skip-turbolinks -d mysql`
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* `rails g sorcery:install`
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* 追加 `rails g sorcery:install user_activation remember_me reset_password --only-submodules`
