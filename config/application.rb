@@ -16,10 +16,11 @@ module ShoppingPlatform
     # -- all .rb files in that directory are automatically loaded after loading
     # the framework and any gems in your application.
     config.autoload_paths += Dir["#{config.root}/lib/**/"]
-    
+
     config.generators do |generator|
       generator.assets false
       generator.test_framework false
+      generator.skip_routes true
     end
   end
 end
